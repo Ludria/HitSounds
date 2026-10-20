@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "dev.ludria.hitsound.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "EntityHitMixin"
+  ],
+  "client": [
+    "MinecraftClientMixin",
+    "OptionsAccessor",
+    "OptionsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

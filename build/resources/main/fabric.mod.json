@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "hitsound",
+  "version": "1.2.1+26.3",
+  "name": "Hitsounds",
+  "description": "Hitsounds is a mod that plays a sound when you hit an entity!",
+  "authors": [
+    "Ludria"
+  ],
+  "contact": {
+    "repo": "https://github.com/Ludria/HitSound"
+  },
+  "license": "MIT",
+  "icon": "assets/hitsound/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.ludria.hitsound.HitSound"
+    ],
+    "modmenu": [
+      "dev.ludria.hitsound.integration.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "hitsound.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13",
+    "minecraft": ">=26.3 <26.4"
+  },
+  "suggests": {
+    "cloth-config": ">=11.0.99",
+    "modmenu": ">=7.1.0"
+  },
+  "custom": {
+    "hitsound": {
+      "links": {
+        "hitsound.github": "https://github.com/Ludria/HitSound"
+      },
+      "parent": {
+        "id": "hitsound",
+        "name": "Hitsounds",
+        "description": "Hitsounds is a mod that plays a sound when you hit an entity!",
+        "icon": "assets/hitsound/icon.png"
+      },
+      "update_checker": true
+    }
+  }
+}
