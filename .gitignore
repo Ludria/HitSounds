@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+out/
+classes/
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+
+# Minecraft dev runtime (world saves, logs, configs, crash reports - never commit)
+run/
+
+# Editor backups / lock files
+*~
+.LCK*
+*.orig
+*.bak
+
+# Logs
+*.log

@@ -1,0 +1,18 @@
+# Normalize line endings: LF in the repository, native in the working tree
+* text=auto
+
+# Source and config files
+*.java text
+*.gradle text
+*.properties text
+*.json text
+*.md text
+
+# Windows scripts need CRLF; the POSIX wrapper needs LF
+*.bat text eol=crlf
+gradlew text eol=lf
+
+# Binaries
+*.png binary
+*.ogg binary
+*.jar binary
